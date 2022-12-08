@@ -7,7 +7,7 @@ function component() {
 
   // Lodash, currently included via a script, is required for this line to work
   // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello Ivan 14:52', 'Webpack'], ' ');
+  element.innerHTML = _.join(['Hello Ivan 19:00', 'Webpack'], ' ');
   element.classList.add('hello');
 
   // Add the image to our existing div.
